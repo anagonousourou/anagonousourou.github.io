@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Ceci est l'en-te de page -->
+	<meta charset="utf-8"/>
+	<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+	<meta name="description" content="Plateforme de Masterpedia">
+	<meta name="author" content="Gildas Mahougnon ANAGONOU">
+	<link rel="stylesheet" href="masterpedia_index.css"/>
+	<title>Masterpedia, le catalogue du Génie Civil </title>
+	</head>
+	
+	<body>
+	<header>
+	<!-- Ceci est l'en-t? du site -->
+	<div id="titre_principal">
+	<a href="Pictures/logo_masterpedia_max.png"><img src="Pictures/logo_masterpedia.png" 
+	alt="Logo de Masterpedia" id="logo" title="Cliquer pour agrandir"/></a></a>
+	<h1>MASTERPEDIA</h1>
+	</div>
+		<nav>
+		<ul class="test">
+			<li><a class="liens1" title="Accueil" href="index.html">Accueil</a></li>
+			<li><a class="liens2" title="Le Génie Civil" href="le_genie_civil.html">Génie Civil</a>
+				<ul class="submenu">
+					<li class="menu2"><a title="Qu'est-ce que c'est ?" href="le_genie_civil/qu_est_ce_que_c_est.html">Qu'est-ce que c'est?</a></li>
+					<li class="menu2"><a title="Le Technicien" href="le_genie_civil/le_technicien.html">Le Technicien</li>
+					<li class="menu2"><a title="L'ingenieur civil" href="le_genie_civil/l_ingenieur_civil.html">L'ingenieur civil</a></li>
+					<li class="menu2"><a title="Le Géometre" href="le_genie_civil/le_geometre.html">Le Géometre</a></li>
+					<li class="menu2"><a title="Le Géotechnicien" href="le_genie_civil/le_geotechnicien.html">Le Géotechnicien</a></li>
+					<li class="menu2"><a title="Renforcement test d'entrée" href="le_genie_civil/test.html">Test d'entrée</a></li>
+				</ul>
+				</li>
+			<li><a class="liens3" title="Le Béton Armé" href="ba.html">Béton Armé</a>
+				<ul class="submenu">
+					<li class="menu3"><a title="Avantages et Inconvénients du béton armé"href="generalite.html">Généralités</a></li>
+                    <li class="menu3"><a title="Les Règlements" href="reglements.html">Les Règlements</a></li>
+					<li class="menu3"><a title="Les Hypothèses de Calcul" href="hypotheses.html">Hypothèses</a></li>
+					<li class="menu3"><a title="Les dalles" href="dalles.html">Dalles</a></li>
+					<li class="menu3"><a title="Les éléments porteurs" href="porteurs.html">Poteau & Poutre</a></li>
+					<li class="menu3"><a title="Les fondations" href="fondations.html">Fondation</a></li>
+					<li class="menu3"><a title="Introduction normes Eurocodes" href="introductions_aux_eurocodes.html">Intro aux Eurocodes</a></li>
+					<li class="menu3"><a title="Le Béton Armé aux Etats Limites"href="bael.html">BAEL</a></li>
+				</ul>
+			</li>
+            <li><a class="liens5" title="La Résistance des Matériaux" href="rdm.html">RDM</a>
+				<ul class="submenu">
+					<li class="menu5"><a title="Introduction normes Eurocodes" href="introductions_aux_eurocodes.html">Intro aux Eurocodes</a></li>
+					<li class="menu5"><a title="Les Systèmes Isostatiques" href="isostatique.html">Les Systèmes Isostatiques</a></li>
+                    <li class="menu5"><a title="Les Systèmes Hyperstatiques" href="hyperstatique.html">Les Systèmes Hyperstatiques</a></li>
+					<li class="menu5"><a title="Mécanisme" href="mecanisme.html">Mécanisme</a></li>
+					<li class="menu5"><a title="Logiciel RDM 6"href="rdm6.html">RDM 6</a></li>
+				</ul>
+			</li>
+            			<li><a class="liens6" title="La Géotechnique" href="geotechnique.html">Géotechnique</a>
+				<ul class="submenu">
+					<li class="menu3"><a title="Introduction normes Eurocodes" href="introductions_aux_eurocodes.html">Intro aux Eurocodes</a></li>
+					<li class="menu3"><a title="Anglais" href="anglais.html">Anglais</a></li>
+					<li class="menu3"><a title="Langage C++ dans Environ. UNIX" href="programmation.html">Programmation</a></li>
+					<li class="menu3"><a title="Géotechnique" href="geotechnique.html">Géotechnique</a></li>
+				</ul>
+			</li>
+			<li><a class="liens3" title="La Construction Métallique" href="metallique.html">Métallique</a>
+				<ul class="submenu">
+					<li class="menu3"><a title="Modélisation des structures par MEF" href="modélisation_des_structures.html">Modélisation des structures</a><li>
+					<li class="menu3"><a title="Dynamique des structures" href="Dynamique_des_structures.html">Dynamique des strucutres</a></li>
+					<li class="menu3"><a title="Construction métalique CM66 & Eurocodes 3" href="Construction_métalique_CM66_&_Eurocodes_3.html">Construction métalique CM66</a></li>
+					<li class="menu3"><a title="projet de CSO II" href="projet_de_CSO_II.html">projet de CSO II</a></li>
+					<li class="menu3"><a title="projet de CAO" href="projet_de_CAO.html">projet de CAO</a></li>
+			</ul>
+			</li>
+            <li><a class="liens3" title="La Construction Bois" href="bois.html">Bois</a>
+				<ul class="submenu">
+					<li class="menu3"><a title="Modélisation des structures par MEF" href="modélisation_des_structures.html">Modélisation des structures</a><li>
+					<li class="menu3"><a title="Dynamique des structures" href="Dynamique_des_structures.html">Dynamique des strucutres</a></li>
+					<li class="menu3"><a title="projet de batiment tutoré" href="projet_de_batiment_tutoré.html">projet de batiment tutoré</a></li>
+					<li class="menu3"><a title="beton precontraint BAEL 91/EC2" href="beton_precontraint_BAEL_91/EC2.html">beton precontraint BAEL 91/EC2</a></li>
+					<li class="menu3"><a title="Pont I" href="Pont_I.html">Pont I</a></li>
+				</ul>
+			</li>
+			<li><a class="liens3" title="La Route" href="route.html">Route</a>
+                <ul class="submenu">
+					<li class="menu2"><a title="Rapport Niveau Licence" href="licence.html">Pavés</a></li>
+					<li class="menu2"><a title="Rapport Niveau Master" href="master.html">Bitume</a></li>
+				</ul>
+            </li>
+	       <li><a class="liens2" title= "Rapports de soutenance" href="rapport.html">Mémoire</a>
+				<ul class="submenu">
+					<li class="menu2"><a title="Rapport Niveau Licence" href="licence.html">Rapport</a></li>
+					<li class="menu2"><a title="Rapport Niveau Master" href="master.html">Mémoire</a></li>
+				</ul>
+			</li>
+			<li><a class="liens4" title="Tutoriels" href="tutoriels.html">Tutoriels</a>
+                <ul class="submenu">
+					<li class="menu2"><a title="Archicad" href="archicad.html">Archicad</a></li>
+					<li class="menu2"><a title="Robot" href="robot.html">Robot</a></li>
+                    <li class="menu2"><a title="Revit" href="revit.html">Revit</a></li>
+					<li class="menu2"><a title="Autocad" href="autocad.html">Autocad</a></li>
+				</ul>
+            </li>
+            <li><a class="liens4" title="Forum" href="forum.html">Forum</a></li>
+			<li><a class="liens1" title="A propos de nous"href="a_propos.html">A propos</a></li>
+		</ul>
+	
+	</nav>
+		
+		</header>
+
+	<section>
+	<!-- Ceci est le corps de la page -->
+	
+		<div class="msg1">
+		<h2>ADAPTATIF</h2>
+		<h3>Projet géré par de jeunes professionnels qui le font correspondre à leurs besoins</h3>
+		
+	</div>
+	
+	<div class="msg2">
+		<h2>PROACTIF<h2>
+		<h3>Projet permettant d'avoir une vue d'ensemble sur le programme.</h3>
+	</div>
+
+	<div class="msg3">
+		<h2>INTERACTIF</h2>
+		<h3>Un forum autonome qui constitue un espace de partage de premier choix.</h3>
+	</div>
+	
+	<div class="msg4">
+		<h2>FORMATIF</h2>
+		<h3>Le projet regroupe des médias de formations</h3>
+		
+	</div>
+	
+	</section>
+	
+	<article>
+
+	
+	</article>
+	
+	
+	
+	</body>
+	
+	</html>
+	

@@ -67,9 +67,9 @@
       
 			<li><a class="liens7" title="Commandez auprès de nous" href="commandez.html">Commandez</a>
         <ul class="submenu">
-					<li class="menu7"><a title="Nos tutoriels" href="commandez/tutoriels.html">Nos Tutoriels</a></li>
-					<li class="menu7"><a title="Nos logiciels et Applications" href="commandez/application.html">Nos Applications</a></li>
-          <li class="menu7"><a title="Nos Menmentos, Agendas et Fiches" href="commandez/documents.html">Nos documents</a></li>
+					<li class="menu7"><a title="Nos tutoriels" href="tutoriels.html">Nos Tutoriels</a></li>
+					<li class="menu7"><a title="Nos logiciels et Applications" href="application.html">Nos Applications</a></li>
+          <li class="menu7"><a title="Nos Menmentos, Agendas et Fiches" href="documents.html">Nos documents</a></li>
 				</ul>
       </li>
       <li><a class="liens1" title="Forum" href="forum.html">Forum</a></li>

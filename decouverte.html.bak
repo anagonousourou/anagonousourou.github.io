@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
 <head>
 	<!-- Ceci est l'en-te de page -->
@@ -9,7 +9,7 @@
 	<meta name="description" content="Plateforme de Masterpedia">
   <link rel="shortcut icon" href="Pictures/logo_masterpedia_max.png">
 	<meta name="author" content="Gildas Mahougnon ANAGONOU">
-	<link rel="stylesheet" href="masterpedia_index.css"/>
+	<link rel="stylesheet" href="masterpedia_forum.css"/>
 	<title>Masterpedia, le Magazine de l'Ingénieur Civil </title>
 	</head>
 	
@@ -34,42 +34,42 @@
 				</li>
 			<li><a class="liens3" title="Les dernières nouvelles du Génie Civil" href="actualités.html">Actualités</a>
 				<ul class="submenu">
-					<li class="menu3"><a title="Editorial" href="actualités/editorial.html">Editorial</a></li>
-          <li class="menu3"><a title="Les projets en cours" href="actualités/hypotheses.html">Les projets</a></li>
-					<li class="menu3"><a title="Les Nouveautés du Génie Civil" href="actualités/nouveaute.html">Nouveautés</a></li>
-					<li class="menu3"><a title="Autres" href="actualités/autres.html">Autres</a></li>
+					<li class="menu3"><a title="Editorial" href="editorial.html">Editorial</a></li>
+          <li class="menu3"><a title="Les projets en cours" href="hypotheses.html">Les projets</a></li>
+					<li class="menu3"><a title="Les Nouveautés du Génie Civil" href="nouveaute.html">Nouveautés</a></li>
+					<li class="menu3"><a title="Autres" href="autres.html">Autres</a></li>
 				</ul>
 			</li>
             <li><a class="liens4" title="A la découvertes des merveilles du Génie Béninois" href="decouverte.html">Dossiers</a>
 				<ul class="submenu" id="submenu4">
-					<li class="menu4"><a title="Les Règlements, normes et documents techniques" href="decouverte/reglements.html">Les Règlements</a></li>
-					<li class="menu4"><a title="Les logiciels utilisés par les ingénieurs civils" href="decouverte/logiciels.html">Les logiciels</a></li>
-					<li class="menu4"><a title="Les écoles de Génie Civil" href="decouverte/ecole.html">Les écoles</a></li>
-          <li class="menu4"><a title="Les Entreprises et Bureaux d'Etudes" href="decouverte/entreprises.html">Les Entreprises</a></li>
+					<li class="menu4"><a title="Les Règlements, normes et documents techniques" href="reglements.html">Les Règlements</a></li>
+					<li class="menu4"><a title="Les logiciels utilisés par les ingénieurs civils" href="logiciels.html">Les logiciels</a></li>
+					<li class="menu4"><a title="Les écoles de Génie Civil" href="ecole.html">Les écoles</a></li>
+          <li class="menu4"><a title="Les Entreprises et Bureaux d'Etudes" href="entreprises.html">Les Entreprises</a></li>
 					<li class="menu4"><a title="Autres" href="autres.html">Autres</a></li>
 				</ul>
 			</li>
             <li><a class="liens5" title="Apprenez à calculer divers éléments" href="calculer.html">Comment calculer ?</a>
 				<ul class="submenu">
-					<li class="menu5"><a title="Calculer les ouvrages d'un bâtiment" href="calculer/batiment.html">bâtiment</a></li>
-					<li class="menu5"><a title="Calculer les ouvrages d'une route" href="calculer/route.html">route</a></li>
-					<li class="menu5"><a title="Le métré" href="calculer/metre.html">Métré</a></li>
-					<li class="menu5"><a title="Autres" href="calculer/autres.html">Autres</a></li>
+					<li class="menu5"><a title="Calculer les ouvrages d'un bâtiment" href="batiment.html">bâtiment</a></li>
+					<li class="menu5"><a title="Calculer les ouvrages d'une route" href="route.html">route</a></li>
+					<li class="menu5"><a title="Le métré" href="metre.html">Métré</a></li>
+					<li class="menu5"><a title="Autres" href="autres.html">Autres</a></li>
 				</ul>
 			</li>
 			<li><a class="liens6" title="Détente" href="detente.html">Détente</a>
 				<ul class="submenu">
-					<li class="menu6"><a title="blague" href="detente/blagues.html">Blagues</a><li>
-					<li class="menu6"><a title="Images drôles" href="detente/images_droles.html">Images drôles</a></li>
-					<li class="menu6"><a title="Jeux" href="detente/jeux.html">Jeux</a></li>
+					<li class="menu6"><a title="blague" href="blagues.html">Blagues</a><li>
+					<li class="menu6"><a title="Images drôles" href="images_droles.html">Images drôles</a></li>
+					<li class="menu6"><a title="Jeux" href="jeux.html">Jeux</a></li>
 				</ul>
 			</li>
       
 			<li><a class="liens7" title="Commandez auprès de nous" href="commandez.html">Commandez</a>
         <ul class="submenu">
-					<li class="menu7"><a title="Nos tutoriels" href="commandez/tutoriels.html">Nos Tutoriels</a></li>
-					<li class="menu7"><a title="Nos logiciels et Applications" href="commandez/application.html">Nos Applications</a></li>
-          <li class="menu7"><a title="Nos Menmentos, Agendas et Fiches" href="commandez/documents.html">Nos documents</a></li>
+					<li class="menu7"><a title="Nos tutoriels" href="tutoriels.html">Nos Tutoriels</a></li>
+					<li class="menu7"><a title="Nos logiciels et Applications" href="application.html">Nos Applications</a></li>
+          <li class="menu7"><a title="Nos Menmentos, Agendas et Fiches" href="documents.html">Nos documents</a></li>
 				</ul>
       </li>
       <li><a class="liens1" title="Forum" href="forum.html">Forum</a></li>
@@ -84,23 +84,16 @@
 	<!-- Ceci est le corps de la page -->
 		
 		<div class="msg1">
-            <h2>ADAPTATIF</h2>
-            <h3>Projet géré par de jeunes professionnels qui le font correspondre à leurs besoins</h3>
+            <h2></h2>
+            <h3></h3>
+            	
         </div>
 	   <div class="msg2">
-              <h2>PROACTIF</h2>
-		      <h3>Projet permettant d'avoir une vue d'ensemble sur le domaine.</h3>
+              <h2></h2>
+		      <h3> </h3>
         </div>
 		
-	   <div class="msg3">
-		  <h2>INTERACTIF</h2>
-		  <h3>Un forum autonome qui constitue un espace de partage de premier choix.</h3>
-	   </div>
 	
-	<div class="msg4">
-		<h2>FORMATIF</h2>
-		<h3>Le projet regroupe des médias de formations</h3>
-		
 	</div>
 	<div class="msg5"><h4>© NeuroneCorporate. Tous droits réservés.</h4></div>
 	</section>
