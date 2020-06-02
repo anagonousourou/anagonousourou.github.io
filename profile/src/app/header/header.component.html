@@ -1,27 +1,27 @@
 <div class="nav-header bg-dark">
     <h3>Profile</h3>
     <div class="desktop-version nav-links">
-        <button  routerLink="/formation" class="nav-link btn">Formation</button>
-        <button  routerLink="/experience" class="nav-link btn">Expérience</button>
-        <button  routerLink="/projets" class="nav-link btn">Projets</button>
+        <a  href="#formation" class="nav-link btn">Formation</a>
+        <a href="#workexperience"  class="nav-link btn">Expérience</a>
+        <a href="#projets" class="nav-link btn">Projets</a>
     </div>
     <div class="mob-version">
         <button class="btn" mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
             <mat-icon>more_vert</mat-icon>
           </button>
           <mat-menu  #menu="matMenu">
-            <button mat-menu-item>
+            <a href="#formation"  mat-menu-item>
               <mat-icon>school</mat-icon>
               <span>Formation</span>
-            </button>
-            <button mat-menu-item disabled>
+            </a>
+            <a href="#workexperience" mat-menu-item >
               <mat-icon>grading</mat-icon>
               <span>Expérience</span>
-            </button>
-            <button mat-menu-item>
+            </a>
+            <a href="#projets" mat-menu-item>
               <mat-icon>work</mat-icon>
               <span>Projets</span>
-            </button>
+            </a>
           </mat-menu>
     </div>
     

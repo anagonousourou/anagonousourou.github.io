@@ -1,0 +1,31 @@
+.example-card {
+    max-width: 400px;
+  }
+  
+  .example-header-image {
+    background-image: url('http://pngimg.com/uploads/android_logo/android_logo_PNG27.png');
+    background-size: cover;
+  }
+  .java-application {
+    background-image: url('https://i7.pngguru.com/preview/785/145/98/java-development-kit-software-development-kit-computer-programming-computer-icons-programming-language-icon.jpg');
+    background-size: cover;
+  }
+
+  .ng-application{
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png');
+      background-size: cover;
+  }
+
+  .flask-application{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1200px-Flask_logo.svg.png');
+    background-size: cover;
+  }
+
+  .img-container{
+      max-height: 300px;
+      overflow: hidden;
+  }
+
+.example-card +.example-card {
+    margin-top: 5px;
+}
