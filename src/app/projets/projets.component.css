@@ -21,10 +21,17 @@
     background-size: cover;
   }
 
+  .c-application{
+    background-image: url('http://pngimg.com/uploads/letter_c/letter_c_PNG22.png');
+    background-size: cover;
+  }
+
   .img-container{
       max-height: 300px;
       overflow: hidden;
   }
+
+  
 
 .example-card +.example-card {
     margin-top: 5px;
