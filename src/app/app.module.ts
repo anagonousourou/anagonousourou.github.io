@@ -14,6 +14,8 @@ import { FormationComponent } from './formation/formation.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ProjetsComponent } from './projets/projets.component';
 import { FooterComponent } from './footer/footer.component'; 
+import { MessageService } from './shared/services/message.service';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,7 @@ import { FooterComponent } from './footer/footer.component';
     MatIconModule,
     MatMenuModule,
     MatCardModule,
-    MatButtonModule
+    MatButtonModule,MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

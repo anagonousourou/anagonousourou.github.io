@@ -25,7 +25,10 @@
     background-image: url('http://pngimg.com/uploads/letter_c/letter_c_PNG22.png');
     background-size: cover;
   }
-
+.spring-boot-application{
+  background-image: url('https://cdn.auth0.com/blog/logos/spring-boot.png');
+  background-size: cover;
+}
   .img-container{
       max-height: 300px;
       overflow: hidden;

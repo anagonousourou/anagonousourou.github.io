@@ -1,5 +1,7 @@
 
-
+.dishead-company{
+    padding: 20px;
+}
 .formation-elt + .formation-elt{
     margin-top: 5px;
 }
