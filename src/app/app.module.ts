@@ -16,7 +16,8 @@ import { ProjetsComponent } from './projets/projets.component';
 import { FooterComponent } from './footer/footer.component'; 
 import { MessageService } from './shared/services/message.service';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
-
+import { VideoPopupComponent } from './video-popup/video-popup.component';
+import {MatDialogModule} from '@angular/material/dialog'; 
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,12 +26,13 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
     FormationComponent,
     ExperienceComponent,
     ProjetsComponent,
-    FooterComponent
+    FooterComponent,
+    VideoPopupComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
+    BrowserAnimationsModule,MatDialogModule,
     MatIconModule,
     MatMenuModule,
     MatCardModule,
