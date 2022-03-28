@@ -30,6 +30,10 @@
   background-size: cover;
 }
 
+.groovy-application{
+  background-image: url('https://everipedia-storage.s3.amazonaws.com/ProfilePicture/en/Groovy__u_28programming_language_u_29__6e22c4/Groovy-logo.svg__24024.svg');
+  background-size: cover;
+}
 .dotnet-application{
   background-image: url('https://www.embarksoftware.com/common/img/customise/dotnet_logo.png');
   background-size: cover;
