@@ -1,50 +1,65 @@
 .example-card {
-    max-width: 400px;
-  }
-  
-  .example-header-image {
-    background-image: url('http://pngimg.com/uploads/android_logo/android_logo_PNG27.png');
-    background-size: cover;
-  }
-  .java-application {
-    background-image: url('https://i7.pngguru.com/preview/785/145/98/java-development-kit-software-development-kit-computer-programming-computer-icons-programming-language-icon.jpg');
-    background-size: cover;
-  }
+  max-width: 400px;
+}
 
-  .ng-application{
-      background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png');
-      background-size: cover;
-  }
+.example-header-image {
+  background-image: url('http://pngimg.com/uploads/android_logo/android_logo_PNG27.png');
+  background-size: cover;
+}
 
-  .flask-application{
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1200px-Flask_logo.svg.png');
-    background-size: cover;
-  }
+.java-application {
+  background-image: url('https://i7.pngguru.com/preview/785/145/98/java-development-kit-software-development-kit-computer-programming-computer-icons-programming-language-icon.jpg');
+  background-size: cover;
+}
 
-  .c-application{
-    background-image: url('http://pngimg.com/uploads/letter_c/letter_c_PNG22.png');
-    background-size: cover;
-  }
-.spring-boot-application{
+.ng-application {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png');
+  background-size: cover;
+}
+
+.flask-application {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Flask_logo.svg/1200px-Flask_logo.svg.png');
+  background-size: cover;
+}
+
+.c-application {
+  background-image: url('http://pngimg.com/uploads/letter_c/letter_c_PNG22.png');
+  background-size: cover;
+}
+
+.spring-boot-application {
   background-image: url('https://cdn.auth0.com/blog/logos/spring-boot.png');
   background-size: cover;
 }
 
-.groovy-application{
+.groovy-application {
   background-image: url('https://everipedia-storage.s3.amazonaws.com/ProfilePicture/en/Groovy__u_28programming_language_u_29__6e22c4/Groovy-logo.svg__24024.svg');
   background-size: cover;
 }
-.dotnet-application{
+
+.dotnet-application {
   background-image: url('https://www.embarksoftware.com/common/img/customise/dotnet_logo.png');
   background-size: cover;
 }
-  .img-container{
-      max-height: 300px;
-      overflow: hidden;
-  }
 
-  
+.img-container {
+  max-height: 300px;
+  overflow: hidden;
+}
 
-.example-card +.example-card {
-    margin-top: 5px;
+
+
+.example-card+.example-card {
+  margin-top: 5px;
+}
+
+.duration{
+  font-size: 8pt;
+}
+.projet-footer mat-chip-list mat-chip{
+  font-size: 8pt;
+}
+
+.projet-footer{
+  padding: 10px;
 }

@@ -1,23 +1,23 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
 
+import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
+import { MatChipsModule } from '@angular/material/chips';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatIconModule } from '@angular/material/icon';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatMenuModule} from '@angular/material/menu'; 
-import {MatIconModule} from '@angular/material/icon';
-import {MatCardModule} from '@angular/material/card';
-import {MatButtonModule} from '@angular/material/button';
-import { WhoamiComponent } from './whoami/whoami.component';
-import { FormationComponent } from './formation/formation.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { FooterComponent } from './footer/footer.component';
+import { FormationComponent } from './formation/formation.component';
+import { HeaderComponent } from './header/header.component';
 import { ProjetsComponent } from './projets/projets.component';
-import { FooterComponent } from './footer/footer.component'; 
-import { MessageService } from './shared/services/message.service';
-import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { VideoPopupComponent } from './video-popup/video-popup.component';
-import {MatDialogModule} from '@angular/material/dialog'; 
+import { WhoamiComponent } from './whoami/whoami.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,11 +32,11 @@ import {MatDialogModule} from '@angular/material/dialog';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,MatDialogModule,
+    BrowserAnimationsModule, MatDialogModule,
     MatIconModule,
     MatMenuModule,
     MatCardModule,
-    MatButtonModule,MatSnackBarModule
+    MatButtonModule, MatSnackBarModule,MatChipsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
