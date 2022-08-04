@@ -18,6 +18,8 @@ import { HeaderComponent } from './header/header.component';
 import { ProjetsComponent } from './projets/projets.component';
 import { VideoPopupComponent } from './video-popup/video-popup.component';
 import { WhoamiComponent } from './whoami/whoami.component';
+import { MentionsLegalesComponent } from './mentions-legales/mentions-legales.component';
+import { HomeComponent } from './home/home.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +29,9 @@ import { WhoamiComponent } from './whoami/whoami.component';
     ExperienceComponent,
     ProjetsComponent,
     FooterComponent,
-    VideoPopupComponent
+    VideoPopupComponent,
+    MentionsLegalesComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
