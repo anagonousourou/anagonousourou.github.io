@@ -2,10 +2,10 @@
 
 npm run build 
 
-cp -r dist/profile/. ../deployprofile/anagonousourou.github.io
+cp -r dist/profile/. ../profile-deployment
 
+cd ../profile-deployment
 git checkout master
-cp -r ../deployprofile/anagonousourou.github.io/. .
 git add -A
-git commit -m "deployment"
+git commit -m "déploiement"
 git push
